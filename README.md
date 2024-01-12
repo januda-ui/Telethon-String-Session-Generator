@@ -21,7 +21,7 @@ Telethon String Session Generator
 
 4. Run the file
    ```markdown
-   Telethon.py
+   python3 Telethon.py
    ```
 
 ## Environment Variables
