@@ -20,6 +20,6 @@ def generate_telethon_session():
 
     with TelegramClient(StringSession(), APP_ID, API_HASH) as StarkBots:
         print("\nSession sent in saved messages.")
-        StarkBots.send_message("me", f"*Don't share with anyone*n\n`{StarkBots.session.save()}`\n\n@SingleDevelopers✌️",)
+        StarkBots.send_message("me", f"*Don't share with anyone*\n\n`{StarkBots.session.save()}`\n\n@SingleDevelopers✌️",)
 
 generate_telethon_session()
